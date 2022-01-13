@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>ShopNow</title>
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><i class="fas fa-shopping-cart mr-2"></i>Go Back</a>
+        <a class="navbar-brand" href="./checkout.html"><i class="fas fa-shopping-cart mr-2"></i>Mycart</a>
+    </nav>
+    <!--navbar-->
+    <!-- header -->
+    <header class="m-5">
+        <h1 class="text-center m-5"><i class="fas fa-shopping-cart mr-2"></i> ShopNow</h1>
+        <h3 class="text-center m-3">Welcome to your Online Shopping Store.</h3>
+    </header>
+
+    <!-- Buttons -->
+
+
+    <!---GROCERY ITEMS-->
+    <h3 class="text-center"><i class="fas fa-shopping-basket"></i> &nbsp;Grocery</h3>
+    <div class="text-center">
+        <div class="container">
+            <div class="card-deck mb-3 text-center pt-4">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Cooking Oil</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <h1 class="card-title pricing-card-title">$10.5 <small class="text-muted">/ mo</small></h1>
+
+                        <button type="button" id="grocery_item" onclick="window.location.href='grocery.html#grocery' ;  buy(1)" class="btn btn-lg btn-block btn-primary ">Add to cart</button>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow ">
+                    <div class="card-header ">
+                        <h4 class="my-0 font-weight-normal ">Pasta</h4>
+                    </div>
+                    <div class="card-body ">
+                        <ul class="list-unstyled mt-3 mb-4 ">
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Priority email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <h1 class="card-title pricing-card-title ">$6.25 <small class="text-muted ">/ mo</small></h1>
+
+                        <button type="button " id="grocery_item" onclick="window.location.href='grocery.html#grocery' ; buy(2)" class="btn btn-lg btn-block btn-primary ">Add to cart</button>
+                    </div>
+                </div>
+                <div class="card mb-4 box-shadow ">
+                    <div class="card-header ">
+                        <h4 class="my-0 font-weight-normal ">Instant cupcake mixture</h4>
+                    </div>
+                    <div class="card-body ">
+                        <ul class="list-unstyled mt-3 mb-4 ">
+                            <li>30 users included</li>
+                            <li>15 GB of storage</li>
+                            <li>Phone and email support</li>
+                            <li>Help center access</li>
+                        </ul>
+                        <h1 class="card-title pricing-card-title ">$5 <small class="text-muted ">/ mo</small></h1>
+
+                        <button type="button " id="clothes_item" onclick="window.location.href='grocery.html#grocery' ; buy(3)" class="btn btn-lg btn-block btn-primary ">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!---BEAUTY ITEMS-->
+        <h3 class="text-center"><i class="fas fa-heart"></i> &nbsp;Beauty</h3>
+        <div class="text-center">
+            <div class="container">
+                <div class="card-deck mb-3 text-center pt-4">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">All in one</h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <h1 class="card-title pricing-card-title">$260 <small class="text-muted">/ mo</small></h1>
+
+                            <button type="button" id="grocery_item" onclick="window.location.href='grocery.html#beauty' ;  buy(4)" class="btn btn-lg btn-block btn-primary ">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow ">
+                        <div class="card-header ">
+                            <h4 class="my-0 font-weight-normal ">Zero make-up kit</h4>
+                        </div>
+                        <div class="card-body ">
+                            <ul class="list-unstyled mt-3 mb-4 ">
+                                <li>20 users included</li>
+                                <li>10 GB of storage</li>
+                                <li>Priority email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <h1 class="card-title pricing-card-title ">$20.5 <small class="text-muted ">/ mo</small></h1>
+
+                            <button type="button " id="beauty_item" onclick="window.location.href='grocery.html#beauty' ; buy(5)" class="btn btn-lg btn-block btn-primary ">Add to cart</button>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow ">
+                        <div class="card-header ">
+                            <h4 class="my-0 font-weight-normal ">Lip Tints</h4>
+                        </div>
+                        <div class="card-body ">
+                            <ul class="list-unstyled mt-3 mb-4 ">
+                                <li>30 users included</li>
+                                <li>15 GB of storage</li>
+                                <li>Phone and email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <h1 class="card-title pricing-card-title ">$12.75 <small class="text-muted ">/ mo</small></h1>
+
+                            <button type="button " id="clothes_item" onclick="window.location.href='grocery.html#beauty' ; buy(6)" class="btn btn-lg btn-block btn-primary ">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!---CLOTHES ITEMS-->
+            <h3 class="text-center"><i class="fas fa-tshirt"></i> &nbsp;Clothes</h3>
+            <div class="text-center">
+                <div class="container">
+                    <div class="card-deck mb-3 text-center pt-4">
+                        <div class="card mb-4 box-shadow">
+                            <div class="card-header">
+                                <h4 class="my-0 font-weight-normal">Lawn dress</h4>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>10 users included</li>
+                                    <li>2 GB of storage</li>
+                                    <li>Email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                                <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+
+                                <button type="button" id="clothes_item" onclick="window.location.href='grocery.html#clothes' ;  buy(7)" class="btn btn-lg btn-block btn-primary ">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="card mb-4 box-shadow ">
+                            <div class="card-header ">
+                                <h4 class="my-0 font-weight-normal ">Lawn-Chiffon Combo</h4>
+                            </div>
+                            <div class="card-body ">
+                                <ul class="list-unstyled mt-3 mb-4 ">
+                                    <li>20 users included</li>
+                                    <li>10 GB of storage</li>
+                                    <li>Priority email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                                <h1 class="card-title pricing-card-title ">$19.99 <small class="text-muted ">/ mo</small></h1>
+
+                                <button type="button " id="beauty_item" onclick="window.location.href='grocery.html#clothes' ; buy(8)" class="btn btn-lg btn-block btn-primary ">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="card mb-4 box-shadow ">
+                            <div class="card-header ">
+                                <h4 class="my-0 font-weight-normal ">Toddler Frock</h4>
+                            </div>
+                            <div class="card-body ">
+                                <ul class="list-unstyled mt-3 mb-4 ">
+                                    <li>30 users included</li>
+                                    <li>15 GB of storage</li>
+                                    <li>Phone and email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+                                <h1 class="card-title pricing-card-title ">$9.99 <small class="text-muted ">/ mo</small></h1>
+
+                                <button type="button " id="clothes_item" onclick="window.location.href='grocery.html#clothes' ; buy(9)" class="btn btn-lg btn-block btn-primary ">Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<button type="button " onclick="window.location.href='grocery.html#grocery' ; " class="btn m-4 mt-5 btn btn-primary ">Grocery</button>
+        <button type="button " onclick="window.location.href='grocery.html#beauty' ; " class="btn m-4 mt-5 btn btn-primary ">Beauty</button>
+        <button type="button " onclick="window.location.href='grocery.html#clothes' ; " class="btn m-4 mt-5 btn btn-primary ">Clothes</button>
+    </div>
+-->
+
+                <!-- script tags -->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous ">
+                </script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous ">
+                </script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous ">
+                </script>
+
+                <!--script checkout.js file-->
+                <script src="/js/checkout 2.js"></script>
+
+                <!--script shop.js file-->
+                <script src="/js/shop.js" async></script>
+</body>
+
+</html>
